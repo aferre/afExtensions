@@ -6,6 +6,20 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		38690F3F1434CCEE00EAC3F7 /* afExtensions-Universal */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 38690F401434CCEE00EAC3F7 /* Build configuration list for PBXAggregateTarget "afExtensions-Universal" */;
+			buildPhases = (
+				38690F431434CD1200EAC3F7 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = "afExtensions-Universal";
+			productName = "afExtensions-Universal";
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		38212ED01434B58E00369357 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38212ECF1434B58E00369357 /* CoreFoundation.framework */; };
 		38212ED61434B58E00369357 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 38212ED41434B58E00369357 /* InfoPlist.strings */; };
@@ -19,12 +33,13 @@
 		38212EF01434B6F700369357 /* afStringExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 38212EDE1434B66000369357 /* afStringExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		38212EF11434B6F700369357 /* afFileManagerExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 38212EE01434B66000369357 /* afFileManagerExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		38212EF21434B6F700369357 /* afViewExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 38212EE21434B66000369357 /* afViewExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38690F3C1434CB2000EAC3F7 /* afExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 38690F3A1434CB2000EAC3F7 /* afExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		38212EBD1434B53A00369357 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		38212EC11434B53A00369357 /* afExtensions-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "afExtensions-Prefix.pch"; sourceTree = "<group>"; };
-		38212ECE1434B58E00369357 /* afExtensions.afExtensions */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = afExtensions.afExtensions; sourceTree = BUILT_PRODUCTS_DIR; };
+		38212ECE1434B58E00369357 /* afExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = afExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		38212ECF1434B58E00369357 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		38212ED31434B58E00369357 /* afExtensions-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "afExtensions-Info.plist"; sourceTree = "<group>"; };
 		38212ED51434B58E00369357 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -39,6 +54,7 @@
 		38212EE31434B66000369357 /* afViewExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = afViewExtensions.m; sourceTree = "<group>"; };
 		38212EE81434B69000369357 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		38212EEA1434B69500369357 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		38690F3A1434CB2000EAC3F7 /* afExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = afExtensions.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +84,7 @@
 		38212EBB1434B53A00369357 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				38212ECE1434B58E00369357 /* afExtensions.afExtensions */,
+				38212ECE1434B58E00369357 /* afExtensions.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				38212EDC1434B66000369357 /* afDateExtensions.h */,
+				38690F3A1434CB2000EAC3F7 /* afExtensions.h */,
 				38212EDD1434B66000369357 /* afDateExtensions.m */,
 				38212EDE1434B66000369357 /* afStringExtensions.h */,
 				38212EDF1434B66000369357 /* afStringExtensions.m */,
@@ -144,6 +161,7 @@
 				38212EEF1434B6F700369357 /* afDateExtensions.h in Headers */,
 				38212EF01434B6F700369357 /* afStringExtensions.h in Headers */,
 				38212EF11434B6F700369357 /* afFileManagerExtensions.h in Headers */,
+				38690F3C1434CB2000EAC3F7 /* afExtensions.h in Headers */,
 				38212EF21434B6F700369357 /* afViewExtensions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -166,7 +184,7 @@
 			);
 			name = afExtensions;
 			productName = afExtensions;
-			productReference = 38212ECE1434B58E00369357 /* afExtensions.afExtensions */;
+			productReference = 38212ECE1434B58E00369357 /* afExtensions.framework */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -190,6 +208,7 @@
 			projectRoot = "";
 			targets = (
 				38212ECD1434B58E00369357 /* afExtensions */,
+				38690F3F1434CCEE00EAC3F7 /* afExtensions-Universal */,
 			);
 		};
 /* End PBXProject section */
@@ -204,6 +223,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		38690F431434CD1200EAC3F7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Sets the target folders and the final framework product.\nFMK_NAME=afExtensions\nFMK_VERSION=A\n\n# Install dir will be the final output to the framework.\n# The following line create it in the root folder of the current project.\nINSTALL_DIR=${SRCROOT}/Products/${FMK_NAME}.framework\n\n# Working dir will be deleted after the framework creation.\nWRK_DIR=build\nDEVICE_DIR=${WRK_DIR}/Release-iphoneos/${FMK_NAME}.framework\nSIMULATOR_DIR=${WRK_DIR}/Release-iphonesimulator/${FMK_NAME}.framework\n\n# Building both architectures.\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphoneos\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphonesimulator\n\n# Cleaning the oldest.\nif [ -d \"${INSTALL_DIR}\" ]\nthen\nrm -rf \"${INSTALL_DIR}\"\nfi\n\n# Creates and renews the final product folder.\nmkdir -p \"${INSTALL_DIR}\"\nmkdir -p \"${INSTALL_DIR}/Versions\"\nmkdir -p \"${INSTALL_DIR}/Versions/${FMK_VERSION}\"\nmkdir -p \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Resources\"\nmkdir -p \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Headers\"\n\n# Creates the internal links.\n# It MUST uses relative path, otherwise will not work when the folder is copied/moved.\nln -s \"${FMK_VERSION}\" \"${INSTALL_DIR}/Versions/Current\"\nln -s \"Versions/Current/Headers\" \"${INSTALL_DIR}/Headers\"\nln -s \"Versions/Current/Resources\" \"${INSTALL_DIR}/Resources\"\nln -s \"Versions/Current/${FMK_NAME}\" \"${INSTALL_DIR}/${FMK_NAME}\"\n\n# Copies the headers and resources files to the final product folder.\ncp -R \"${DEVICE_DIR}/Headers/\" \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Headers/\"\ncp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Resources/\"\n\n# Removes the binary and header from the resources folder.\nrm -r \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Resources/Headers\" \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Resources/${FMK_NAME}\"\n\n# Uses the Lipo Tool to merge both binary files (i386 + armv6/armv7) into one Universal final product.\nlipo -create \"${DEVICE_DIR}/${FMK_NAME}\" \"${SIMULATOR_DIR}/${FMK_NAME}\" -output \"${INSTALL_DIR}/Versions/${FMK_VERSION}/${FMK_NAME}\"\n\nrm -r \"${WRK_DIR}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		38212ECA1434B58E00369357 /* Sources */ = {
@@ -278,21 +313,27 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				DEAD_CODE_STRIPPING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/afExtensions/Extensions\"",
+				);
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "afExtensions/afExtensions-Prefix.pch";
+				GCC_PREFIX_HEADER = "";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				INFOPLIST_FILE = "afExtensions/afExtensions-Info.plist";
+				INFOPLIST_FILE = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
 				LINK_WITH_STANDARD_LIBRARIES = NO;
 				MACH_O_TYPE = mh_object;
 				MACOSX_DEPLOYMENT_TARGET = "";
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = afExtensions;
+				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
 		};
@@ -302,20 +343,41 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				DEAD_CODE_STRIPPING = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/afExtensions/Extensions\"",
+				);
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "afExtensions/afExtensions-Prefix.pch";
+				GCC_PREFIX_HEADER = "";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				INFOPLIST_FILE = "afExtensions/afExtensions-Info.plist";
+				INFOPLIST_FILE = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
 				LINK_WITH_STANDARD_LIBRARIES = NO;
 				MACH_O_TYPE = mh_object;
 				MACOSX_DEPLOYMENT_TARGET = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = afExtensions;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		38690F411434CCEE00EAC3F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		38690F421434CCEE00EAC3F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -339,6 +401,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		38690F401434CCEE00EAC3F7 /* Build configuration list for PBXAggregateTarget "afExtensions-Universal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38690F411434CCEE00EAC3F7 /* Debug */,
+				38690F421434CCEE00EAC3F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

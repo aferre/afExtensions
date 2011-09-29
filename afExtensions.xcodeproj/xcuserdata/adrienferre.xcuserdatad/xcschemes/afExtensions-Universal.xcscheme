@@ -13,9 +13,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "38212ECD1434B58E00369357"
-               BuildableName = "afExtensions.framework"
-               BlueprintName = "afExtensions"
+               BlueprintIdentifier = "38690F3F1434CCEE00EAC3F7"
+               BuildableName = "afExtensions-Universal"
+               BlueprintName = "afExtensions-Universal"
                ReferencedContainer = "container:afExtensions.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

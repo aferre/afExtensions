@@ -6,7 +6,7 @@
 //  Copyright 2010 __MyCompanyName__. All rights reserved.
 //
 
-#import "afStringExt.h"
+#import "afStringExtensions.h"
 
 
 @implementation NSString(afStringExtensions)
