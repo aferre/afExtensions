@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38212ED01434B58E00369357 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38212ECF1434B58E00369357 /* CoreFoundation.framework */; };
+		38212ED61434B58E00369357 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 38212ED41434B58E00369357 /* InfoPlist.strings */; };
+		38212EE41434B66000369357 /* afDateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 38212EDD1434B66000369357 /* afDateExtensions.m */; };
+		38212EE51434B66000369357 /* afStringExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 38212EDF1434B66000369357 /* afStringExtensions.m */; };
+		38212EE61434B66000369357 /* afFileManagerExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 38212EE11434B66000369357 /* afFileManagerExtensions.m */; };
+		38212EE71434B66000369357 /* afViewExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 38212EE31434B66000369357 /* afViewExtensions.m */; };
+		38212EEC1434B69F00369357 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38212EEA1434B69500369357 /* QuartzCore.framework */; };
+		38212EED1434B69F00369357 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38212EE81434B69000369357 /* UIKit.framework */; };
+		38212EEF1434B6F700369357 /* afDateExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 38212EDC1434B66000369357 /* afDateExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38212EF01434B6F700369357 /* afStringExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 38212EDE1434B66000369357 /* afStringExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38212EF11434B6F700369357 /* afFileManagerExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 38212EE01434B66000369357 /* afFileManagerExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38212EF21434B6F700369357 /* afViewExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 38212EE21434B66000369357 /* afViewExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		38212EBD1434B53A00369357 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		38212EC11434B53A00369357 /* afExtensions-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "afExtensions-Prefix.pch"; sourceTree = "<group>"; };
+		38212ECE1434B58E00369357 /* afExtensions.afExtensions */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = afExtensions.afExtensions; sourceTree = BUILT_PRODUCTS_DIR; };
+		38212ECF1434B58E00369357 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		38212ED31434B58E00369357 /* afExtensions-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "afExtensions-Info.plist"; sourceTree = "<group>"; };
+		38212ED51434B58E00369357 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		38212ED71434B58E00369357 /* afExtensions-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "afExtensions-Prefix.pch"; sourceTree = "<group>"; };
+		38212EDC1434B66000369357 /* afDateExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = afDateExtensions.h; sourceTree = "<group>"; };
+		38212EDD1434B66000369357 /* afDateExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = afDateExtensions.m; sourceTree = "<group>"; };
+		38212EDE1434B66000369357 /* afStringExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = afStringExtensions.h; sourceTree = "<group>"; };
+		38212EDF1434B66000369357 /* afStringExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = afStringExtensions.m; sourceTree = "<group>"; };
+		38212EE01434B66000369357 /* afFileManagerExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = afFileManagerExtensions.h; sourceTree = "<group>"; };
+		38212EE11434B66000369357 /* afFileManagerExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = afFileManagerExtensions.m; sourceTree = "<group>"; };
+		38212EE21434B66000369357 /* afViewExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = afViewExtensions.h; sourceTree = "<group>"; };
+		38212EE31434B66000369357 /* afViewExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = afViewExtensions.m; sourceTree = "<group>"; };
+		38212EE81434B69000369357 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		38212EEA1434B69500369357 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38212ECB1434B58E00369357 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38212ED01434B58E00369357 /* CoreFoundation.framework in Frameworks */,
+				38212EEC1434B69F00369357 /* QuartzCore.framework in Frameworks */,
+				38212EED1434B69F00369357 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38212EAF1434B53A00369357 = {
+			isa = PBXGroup;
+			children = (
+				38212EBF1434B53A00369357 /* afExtensions */,
+				38212ED11434B58E00369357 /* afExtensions */,
+				38212EBC1434B53A00369357 /* Frameworks */,
+				38212EBB1434B53A00369357 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38212EBB1434B53A00369357 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38212ECE1434B58E00369357 /* afExtensions.afExtensions */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38212EBC1434B53A00369357 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38212EEA1434B69500369357 /* QuartzCore.framework */,
+				38212EE81434B69000369357 /* UIKit.framework */,
+				38212EBD1434B53A00369357 /* Foundation.framework */,
+				38212ECF1434B58E00369357 /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		38212EBF1434B53A00369357 /* afExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				38212EDB1434B66000369357 /* Extensions */,
+				38212EC01434B53A00369357 /* Supporting Files */,
+			);
+			path = afExtensions;
+			sourceTree = "<group>";
+		};
+		38212EC01434B53A00369357 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				38212EC11434B53A00369357 /* afExtensions-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		38212ED11434B58E00369357 /* afExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				38212ED21434B58E00369357 /* Supporting Files */,
+			);
+			path = afExtensions;
+			sourceTree = "<group>";
+		};
+		38212ED21434B58E00369357 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				38212ED31434B58E00369357 /* afExtensions-Info.plist */,
+				38212ED41434B58E00369357 /* InfoPlist.strings */,
+				38212ED71434B58E00369357 /* afExtensions-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		38212EDB1434B66000369357 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				38212EDC1434B66000369357 /* afDateExtensions.h */,
+				38212EDD1434B66000369357 /* afDateExtensions.m */,
+				38212EDE1434B66000369357 /* afStringExtensions.h */,
+				38212EDF1434B66000369357 /* afStringExtensions.m */,
+				38212EE01434B66000369357 /* afFileManagerExtensions.h */,
+				38212EE11434B66000369357 /* afFileManagerExtensions.m */,
+				38212EE21434B66000369357 /* afViewExtensions.h */,
+				38212EE31434B66000369357 /* afViewExtensions.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		38212EEE1434B6D600369357 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38212EEF1434B6F700369357 /* afDateExtensions.h in Headers */,
+				38212EF01434B6F700369357 /* afStringExtensions.h in Headers */,
+				38212EF11434B6F700369357 /* afFileManagerExtensions.h in Headers */,
+				38212EF21434B6F700369357 /* afViewExtensions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		38212ECD1434B58E00369357 /* afExtensions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38212ED81434B58E00369357 /* Build configuration list for PBXNativeTarget "afExtensions" */;
+			buildPhases = (
+				38212ECA1434B58E00369357 /* Sources */,
+				38212ECB1434B58E00369357 /* Frameworks */,
+				38212ECC1434B58E00369357 /* Resources */,
+				38212EEE1434B6D600369357 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = afExtensions;
+			productName = afExtensions;
+			productReference = 38212ECE1434B58E00369357 /* afExtensions.afExtensions */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38212EB11434B53A00369357 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Ferré";
+			};
+			buildConfigurationList = 38212EB41434B53A00369357 /* Build configuration list for PBXProject "afExtensions" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 38212EAF1434B53A00369357;
+			productRefGroup = 38212EBB1434B53A00369357 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38212ECD1434B58E00369357 /* afExtensions */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38212ECC1434B58E00369357 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38212ED61434B58E00369357 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38212ECA1434B58E00369357 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38212EE41434B66000369357 /* afDateExtensions.m in Sources */,
+				38212EE51434B66000369357 /* afStringExtensions.m in Sources */,
+				38212EE61434B66000369357 /* afFileManagerExtensions.m in Sources */,
+				38212EE71434B66000369357 /* afViewExtensions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		38212ED41434B58E00369357 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38212ED51434B58E00369357 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38212EC51434B53A00369357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		38212EC61434B53A00369357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38212ED91434B58E00369357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DEAD_CODE_STRIPPING = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "afExtensions/afExtensions-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "afExtensions/afExtensions-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				MACOSX_DEPLOYMENT_TARGET = "";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = afExtensions;
+			};
+			name = Debug;
+		};
+		38212EDA1434B58E00369357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DEAD_CODE_STRIPPING = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "afExtensions/afExtensions-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "afExtensions/afExtensions-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				MACOSX_DEPLOYMENT_TARGET = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = afExtensions;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38212EB41434B53A00369357 /* Build configuration list for PBXProject "afExtensions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38212EC51434B53A00369357 /* Debug */,
+				38212EC61434B53A00369357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38212ED81434B58E00369357 /* Build configuration list for PBXNativeTarget "afExtensions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38212ED91434B58E00369357 /* Debug */,
+				38212EDA1434B58E00369357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38212EB11434B53A00369357 /* Project object */;
+}

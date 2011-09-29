@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'afExtensions' target in the 'afExtensions' project
+//
+
+#ifdef __OBJC__
+   
+#endif
